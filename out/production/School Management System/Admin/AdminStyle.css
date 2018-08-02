@@ -1,0 +1,20 @@
+.root{
+    -fx-background-color: white;
+}
+
+.table-view{
+    -fx-background-color: transparent;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: wheat;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:even{
+    -fx-background-color: lightcyan;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+
+}
